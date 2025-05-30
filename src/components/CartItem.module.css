@@ -1,0 +1,99 @@
+.cartItem {
+	background-color: var(--card-background-color);
+	border: 2px solid var(--border-color);
+	padding: 5px;
+	border-radius: 8px;
+	height: 150px;
+	display: flex;
+	column-gap: 5px;
+	position: relative;
+}
+
+.itemImageContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 140px;
+	overflow: hidden;
+	border-right: 1px solid var(--border-color);
+	margin-right: 5px;
+}
+.itemImage {
+	width: 150px;
+	border-radius: 4px;
+}
+
+.itemDataContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 12px 0;
+	justify-content: space-between;
+}
+
+.itemName {
+	font-size: 18px;
+	color: var(--text-color);
+	font-weight: bold;
+}
+
+.itemDescription {
+	/* line-height: 22px; */
+	font-size: 14px;
+	color: var(--text-color);
+	opacity: 0.7;
+}
+
+.itemQuantity,
+.itemPrice {
+	color: var(--text-color);
+	font-size: 15px;
+}
+
+.itemQuantity {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+.itemQuantity span {
+	margin-right: 3px;
+}
+
+.itenQuantityUpdate {
+	display: flex;
+	flex-direction: row;
+	column-gap: 4px;
+	width: 100px;
+}
+
+.itenQuantityUpdate p {
+	color: #969696;
+}
+
+.removeItem {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 20px;
+}
+
+.removeItemIcon {
+	/* color: rgb(179, 179, 179); */
+	color: var(--secondary-color);
+	opacity: 0.84;
+	cursor: pointer;
+	/* background-color: var(--border-color); */
+	border-radius: 50%;
+}
+
+.icon {
+	font-size: 11px;
+	cursor: pointer;
+}
+
+.quantity {
+	width: 17px;
+	display: flex;
+	justify-content: center;
+}

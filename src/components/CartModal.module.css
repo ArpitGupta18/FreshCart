@@ -1,0 +1,107 @@
+.cartModal {
+	background-color: var(--background-color);
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1001;
+	width: 450px;
+	height: 96vh;
+	overflow: scroll;
+	border-radius: 8px;
+}
+
+.cartHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--card-background-color);
+	border-bottom: 2px solid var(--border-color);
+	height: 80px;
+	padding: 0 20px;
+}
+
+.cartTitle {
+	font-size: 40px;
+	font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+.cartTotal {
+	font-size: 20px;
+}
+.cartCloseContainer {
+	position: fixed;
+	background-color: black;
+	width: 28px;
+	height: 24px;
+	top: 12px;
+	right: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.cartCloseBtn {
+	width: 28px;
+	height: 28px;
+	border-radius: 4px;
+	color: var(--close-color);
+}
+
+.cartCloseBtn:hover {
+	color: var(--close-hover-color);
+}
+
+.cartContainer {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.removeItems {
+	text-align: right;
+	margin: 5px 15px 0 15px;
+	color: var(--text-color);
+	opacity: 0.6;
+}
+
+.removeItems span {
+	cursor: pointer;
+}
+.removeItems span:hover {
+	color: var(--hover-color);
+}
+
+.emptyCart {
+	font-size: 40px;
+	color: var(--text-color);
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.checkout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.checkout button {
+	width: 100%;
+	padding: 10px 40px;
+	background-color: var(--primary-color);
+	border: none;
+	outline: none;
+	font-size: 16px;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.18s ease;
+}
+
+.checkout button:hover {
+	background-color: var(--secondary-color);
+}

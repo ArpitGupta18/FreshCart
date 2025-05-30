@@ -1,0 +1,83 @@
+.itemContainer {
+	background-color: var(--card-background-color);
+	border: 1px solid var(--border-color);
+	border-radius: 8px;
+}
+
+.itemImageContainer {
+	width: 200px;
+	height: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom: 1px solid var(--border-color);
+	background-color: white;
+}
+
+.itemImage {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	width: 200px;
+}
+.itemDataContainer {
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 12px;
+	margin-top: 8px;
+}
+
+.itemName {
+	font-size: 18px;
+	color: var(--text-color);
+}
+
+.itemPrice {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--text-color);
+}
+
+.itemButtons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.addToCartBtn {
+	padding: 7px 10px;
+	width: 145px;
+	font-size: 14px;
+	outline: none;
+	border: none;
+	background-color: var(--primary-color);
+	font-weight: bold;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.18s ease;
+}
+
+.addToCartBtn:hover {
+	background-color: var(--secondary-color);
+}
+
+.addToWishlist {
+	background-color: rgb(238, 68, 68);
+	color: white;
+	width: 32px;
+	height: 32px;
+	padding: 7px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.18s ease;
+}
+
+.addToWishlist:hover {
+	background-color: rgb(190, 35, 35);
+}

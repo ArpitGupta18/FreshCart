@@ -1,0 +1,126 @@
+.orderContainer {
+	background-color: #fafafa;
+	border-radius: 12px;
+	padding: 20px;
+	margin-bottom: 24px;
+	border: 2px solid #f0f0f0;
+	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.orderContainer:hover {
+	border-color: #ccc;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.orderDetails {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 24px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.orderDetailItem {
+	font-size: 14px;
+	color: #333;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.orderDetailItem p {
+	margin: 0;
+	font-weight: 500;
+}
+
+.orderDetailItem .label {
+	font-size: 12px;
+	color: #999;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-bottom: 4px;
+}
+
+.totalAmount {
+	font-size: 16px;
+	color: #27ae60;
+	font-weight: bold;
+}
+
+.details {
+	cursor: pointer;
+	font-size: 14px;
+	color: #3498db;
+	background-color: #eaf5ff;
+	padding: 8px 12px;
+	border-radius: 20px;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	transition: background-color 0.2s ease;
+}
+
+.details:hover {
+	background-color: #cce7ff;
+}
+
+.orderItems {
+	display: none;
+	padding-top: 16px;
+	flex-direction: column;
+	row-gap: 12px;
+}
+
+.orderItems.expanded {
+	display: flex;
+}
+
+.orderItems .orderItem {
+	background-color: #f9f9f9;
+	border: 1px solid #e0e0e0;
+	padding: 12px;
+	border-radius: 8px;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.orderItems .orderItem:hover {
+	transform: translateY(-2px);
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.reOrderBtnContainer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.reOrderBtn {
+	background-color: rgb(247, 101, 101);
+	color: white;
+	border: none;
+	padding: 8px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.reOrderBtn:hover {
+	background-color: rgb(230, 80, 80);
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.reOrderBtn:active {
+	background-color: rgb(210, 60, 60);
+	transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+	.orderDetails {
+		grid-template-columns: 1fr;
+		grid-gap: 12px;
+	}
+}
