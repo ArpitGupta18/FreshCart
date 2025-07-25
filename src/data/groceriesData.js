@@ -6,7 +6,7 @@ export const groceriesData = [
 		category: "Vegetables",
 		stock: 35,
 		description: "Fresh and tender zucchini.",
-		image_url: "/src/assets/zucchini.jpeg",
+		image_url: "/assets/zucchini.jpeg",
 		vendor: "Green Leaf Farms",
 	},
 	{
@@ -16,7 +16,7 @@ export const groceriesData = [
 		category: "Vegetables",
 		stock: 30,
 		description: "Tender and sweet yellow squash.",
-		image_url: "/src/assets/yellow_squash.jpg",
+		image_url: "/assets/yellow_squash.jpg",
 		vendor: "Sunny Farms",
 	},
 	{
@@ -26,7 +26,7 @@ export const groceriesData = [
 		category: "Vegetables",
 		stock: 40,
 		description: "Fresh baby spinach leaves.",
-		image_url: "/src/assets/spinach.jpeg",
+		image_url: "/assets/spinach.jpeg",
 		vendor: "Green Leaf Farms",
 	},
 	{
@@ -36,7 +36,7 @@ export const groceriesData = [
 		category: "Vegetables",
 		stock: 25,
 		description: "Crisp and nutritious broccoli.",
-		image_url: "/src/assets/broccoli.jpeg",
+		image_url: "/assets/broccoli.jpeg",
 		vendor: "Green Leaf Farms",
 	},
 	{
@@ -46,7 +46,7 @@ export const groceriesData = [
 		category: "Fruits",
 		stock: 50,
 		description: "Crisp and juicy apples.",
-		image_url: "/src/assets/apples.jpeg",
+		image_url: "/assets/apples.jpeg",
 		vendor: "Orchard Fresh",
 	},
 	{
@@ -56,7 +56,7 @@ export const groceriesData = [
 		category: "Fruits",
 		stock: 60,
 		description: "Sweet and ripe bananas.",
-		image_url: "/src/assets/banana.jpeg",
+		image_url: "/assets/banana.jpeg",
 		vendor: "Orchard Fresh",
 	},
 	{
@@ -66,7 +66,7 @@ export const groceriesData = [
 		category: "Fruits",
 		stock: 40,
 		description: "Fresh and sweet grapes.",
-		image_url: "/src/assets/grapes.jpeg",
+		image_url: "/assets/grapes.jpeg",
 		vendor: "Orchard Fresh",
 	},
 	{
@@ -76,7 +76,7 @@ export const groceriesData = [
 		category: "Fruits",
 		stock: 20,
 		description: "Juicy and red strawberries.",
-		image_url: "/src/assets/strawberries.jpeg",
+		image_url: "/assets/strawberries.jpeg",
 		vendor: "Orchard Fresh",
 	},
 	{
